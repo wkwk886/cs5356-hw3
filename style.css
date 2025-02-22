@@ -13,7 +13,8 @@ main {
 
 img {
     max-width: 300px;
-    clip-path: circle(50%);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
