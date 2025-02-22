@@ -2,10 +2,27 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+main {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
 img {
     max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+details {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
 }
